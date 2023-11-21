@@ -16,10 +16,26 @@ body {
   grid-template-rows: 1fr 4fr 6fr 0.5fr;
 }
 
+.sidebar svg {
+  height: 40px;
+}
+
 .heading {
   display: grid;
   grid-template-columns: 3fr 2fr;
   grid-template-rows: 1fr 2fr;
+}
+
+.heading svg {
+  height: 30px;
+}
+
+#profile-picture-s {
+  height: 50px;
+}
+
+#profile-picture-b {
+  height: 80px;
 }
 
 .profile {
@@ -51,4 +67,12 @@ body {
 
 .card {
   border: 1px solid black;
+}
+
+.card svg {
+  height: 30px;
+}
+
+.trending-container svg{
+  height: 50px;
 }
